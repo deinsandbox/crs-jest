@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot.js alway should fail the snapshot 1`] = `
+Object {
+  "createAt": Any<Date>,
+  "id": Any<Number>,
+  "name": "equiman",
+}
+`;
+
+exports[`snapshot.js should compare a snapshot 1`] = `
+Object {
+  "gender": "male",
+  "id": 1,
+  "name": "Rick Sanchez",
+  "species": "human",
+  "status": "alive",
+}
+`;
+
+exports[`snapshot.js should use snapshot exceptions 1`] = `
+Object {
+  "createAt": Any<Date>,
+  "id": Any<Number>,
+  "name": "equiman",
+}
+`;
